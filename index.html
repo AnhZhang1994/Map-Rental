@@ -161,7 +161,7 @@
 
     function addMarkerByAddress(address) {
         var geocoder = new AMap.Geocoder({
-            city: "北京",
+            city: "芜湖",
             radius: 1000
         });
         geocoder.getLocation(address, function(status, result) {
@@ -183,7 +183,7 @@
                     amapTransfer = new AMap.Transfer({
                         map: map,
                         policy: AMap.TransferPolicy.LEAST_TIME,
-                        city: "北京市",
+                        city: "芜湖市",
                         panel: 'transfer-panel'
                     });
                     amapTransfer.search([{
@@ -210,7 +210,7 @@
     function loadWorkLocation() {
         delWorkLocation();
         var geocoder = new AMap.Geocoder({
-            city: "北京",
+            city: "芜湖",
             radius: 1000
         });
 
@@ -241,5 +241,11 @@
     }
     </script>
 </body>
-
+<body><<!-- 1 -->
+<script type="text/javascript">
+WIDGET = {FID: 'IjrX0sp6F0'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script></body>
 </html>
+
+
